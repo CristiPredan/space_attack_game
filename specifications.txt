@@ -1,0 +1,31 @@
+****** SPACE ATTACK ******
+
+Space Attack Arcade Game is a common space invaders type of game, with added features and time limit.
+
+Before working on this code you need Python 3 version on your computer. Then go in the Terminal to the space_attack_game directory and run $ - python game.py command.
+
+
+EXE FILE WITH CX_FREEZE
+
+The Python code can be transfrom easily into an executable file, witch is more interesting and easier to access the game.
+
+NOTICE: The .exe file works for Windows users only
+
+In order to use cx_freeze you must install the programm. Heare are the most common instalation versions:
+
+@@In a virtual environment, install by issuing the command:
+
+pip install --upgrade cx_Freeze
+
+@@Without virtual environment, depending on the system:
+
+python -m pip install --upgrade cx_Freeze
+or
+
+python3 -m pip install --upgrade cx_Freeze
+
+After the instalation, update the code in the setup.py file. 
+
+NOTICE: The built version sends all the images and files in the root directory. If in the initial file structure you have assets/image.png type of path, then, in the built version, you must recreate the assets directory, and move all the necessary elements inside it.
+
+Once the updating is ready, run $ - python setup.py build in the terminal and this is it!
